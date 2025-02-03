@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.aloapp.backgroundmode</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>ملکیتا</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleInfoDictionaryVersion - 2</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.iPersianDeveloper.melkita</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>melkitaApp</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>اجازه دسترسی به گالری</string>
+	<key>NSCameraUsageDescription</key>
+	<string>اجازه دسترسی به دوربین</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>اجازه دسترسی به فیس آیدی</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>اجازه دسترسی به جی پی اس</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>اجازه دسترسی به جی پی اس</string>
+	<key>NSLocationDefaultAccuracyReduced</key>
+	<string>اجازه دسترسی به جی پی اس</string>
+	<key>NSLocationUsageDescription</key>
+	<string>اجازه دسترسی به جی پی اس</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>اجازه دسترسی به جی پی اس</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>اجازه دسترسی به میکروفن</string>
+	<key>NSMotionUsageDescription</key>
+	<string>اجازه دسترسی به میکروفن</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>اجازه دسترسی به گالری</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>اجازه دسترسی به گالری</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Casablanca.ttf</string>
+		<string>Yekan.ttf</string>
+		<string>IRANSans_Bold.ttf</string>
+		<string>IRANSans.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>com.apple.developer.networking.wifi-info</key>
+	<true/>
+</dict>
+</plist>

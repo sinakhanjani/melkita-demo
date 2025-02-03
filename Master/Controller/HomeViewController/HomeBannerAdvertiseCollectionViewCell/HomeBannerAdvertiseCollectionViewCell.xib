@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANSans.ttf">
+            <string>IRANSans</string>
+        </array>
+        <array key="IRANSans_Bold.ttf">
+            <string>IRANSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeBannerAdvertiseCollectionViewCell" id="gTV-IL-0wX" customClass="HomeBannerAdvertiseCollectionViewCell" customModule="Master" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="163" height="251"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="163" height="251"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6U-3a-hJe" customClass="RoundedView" customModule="Master" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="163" height="251"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DId-co-VYE">
+                                <rect key="frame" x="0.0" y="0.0" width="163" height="251"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UFS-TY-ITf">
+                                        <rect key="frame" x="0.0" y="0.0" width="163" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="WkK-FL-1M9"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مسکونی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gev-8l-rAn">
+                                        <rect key="frame" x="0.0" y="128" width="163" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="p21-kd-QxH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="IRANSans-Bold" family="IRANSans" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wxl-VP-Swf">
+                                        <rect key="frame" x="0.0" y="168" width="163" height="1"/>
+                                        <color key="backgroundColor" red="0.94901960780000005" green="0.94905406240000001" blue="0.94889980549999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="Hg5-io-p2l"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" آدرس دو خطی آدرس دو خطی آدرس دو خطی " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqf-H1-qob">
+                                        <rect key="frame" x="0.0" y="177" width="163" height="44"/>
+                                        <fontDescription key="fontDescription" name="IRANSans" family="IRANSans" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="تاریـخ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBa-MG-aSe">
+                                        <rect key="frame" x="0.0" y="229" width="163" height="22"/>
+                                        <fontDescription key="fontDescription" name="IRANSans" family="IRANSans" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8Z-mk-S0N" customClass="RoundedButton" customModule="Master" customModuleProvider="target">
+                                <rect key="frame" x="8" y="68" width="44" height="44"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="4eO-c6-3zJ"/>
+                                    <constraint firstAttribute="height" constant="44" id="aYR-Z9-aXL"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="heart" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loveTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="XFu-rX-fhw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAz-df-2Ua" customClass="RoundedButton" customModule="Master" customModuleProvider="target">
+                                <rect key="frame" x="16" y="8" width="100" height="32"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1Ka-jW-pIW"/>
+                                    <constraint firstAttribute="height" constant="32" id="ACy-GU-oj7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANSans-Bold" family="IRANSans" pointSize="14"/>
+                                <state key="normal" title="برای فروش"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VAz-df-2Ua" firstAttribute="top" secondItem="T6U-3a-hJe" secondAttribute="top" constant="8" id="Aah-5u-Lzu"/>
+                            <constraint firstItem="b8Z-mk-S0N" firstAttribute="bottom" secondItem="UFS-TY-ITf" secondAttribute="bottom" constant="-8" id="HpM-Hj-lJp"/>
+                            <constraint firstItem="DId-co-VYE" firstAttribute="top" secondItem="T6U-3a-hJe" secondAttribute="top" id="RkL-hf-cbp"/>
+                            <constraint firstAttribute="bottom" secondItem="DId-co-VYE" secondAttribute="bottom" id="aOC-c3-MWb"/>
+                            <constraint firstItem="b8Z-mk-S0N" firstAttribute="leading" secondItem="T6U-3a-hJe" secondAttribute="leading" constant="8" id="b2n-oH-eGH"/>
+                            <constraint firstAttribute="trailing" secondItem="DId-co-VYE" secondAttribute="trailing" id="sL5-1q-hm5"/>
+                            <constraint firstItem="VAz-df-2Ua" firstAttribute="leading" secondItem="T6U-3a-hJe" secondAttribute="leading" constant="16" id="sak-80-tSy"/>
+                            <constraint firstItem="DId-co-VYE" firstAttribute="leading" secondItem="T6U-3a-hJe" secondAttribute="leading" id="uQ5-Y0-klE"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="T6U-3a-hJe" secondAttribute="trailing" id="Cdv-CZ-iWu"/>
+                <constraint firstItem="T6U-3a-hJe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Szv-3q-RVV"/>
+                <constraint firstAttribute="bottom" secondItem="T6U-3a-hJe" secondAttribute="bottom" id="YMU-X0-Ezk"/>
+                <constraint firstItem="T6U-3a-hJe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sMn-Ti-40j"/>
+            </constraints>
+            <size key="customSize" width="163" height="280"/>
+            <connections>
+                <outlet property="addressLabel" destination="nqf-H1-qob" id="qLh-Ko-mhT"/>
+                <outlet property="dateLabel" destination="dBa-MG-aSe" id="sqU-3h-MlL"/>
+                <outlet property="imageVIew" destination="UFS-TY-ITf" id="tea-OF-PG3"/>
+                <outlet property="tagButton" destination="VAz-df-2Ua" id="ELa-zc-12a"/>
+                <outlet property="titleLabel" destination="gev-8l-rAn" id="ftc-Ys-ALD"/>
+            </connections>
+            <point key="canvasLocation" x="-13.768115942028986" y="210.60267857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

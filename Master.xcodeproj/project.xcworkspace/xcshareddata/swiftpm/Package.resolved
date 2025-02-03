@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RestfulAPI",
+        "repositoryURL": "https://bitbucket.org/sinakhanjani/restful-api",
+        "state": {
+          "branch": null,
+          "revision": "d7a3f4e3e3cf63373291acb17b1928c252ebc7c3",
+          "version": "1.4.1"
+        }
+      },
+      {
+        "package": "SimpleCheckbox",
+        "repositoryURL": "https://github.com/BeauNouvelle/SimpleCheckbox.git",
+        "state": {
+          "branch": null,
+          "revision": "96cf25c98bd8e595018df6a2466a9a1eb348fdb8",
+          "version": "2.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

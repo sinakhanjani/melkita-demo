@@ -1,0 +1,295 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireImage (4.0.0-beta.5):
+    - Alamofire (~> 5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - Berry (1.0.0):
+    - Berry/Core (= 1.0.0)
+  - Berry/Core (1.0.0)
+  - BetterSegmentedControl (1.2.1)
+  - BlueSocket (1.0.48)
+  - BmoViewPager (5.0.0)
+  - CDAlertView (0.10.0)
+  - Cosmos (17.0.0)
+  - DropDown (2.3.13)
+  - Firebase/Core (6.6.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.0)
+  - Firebase/CoreOnly (6.6.0):
+    - FirebaseCore (= 6.2.0)
+  - Firebase/Messaging (6.6.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.2)
+  - Firebase/RemoteConfig (6.6.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 4.2.1)
+  - FirebaseABTesting (3.0.0):
+    - FirebaseCore (~> 6.0)
+    - Protobuf (~> 3.5)
+  - FirebaseAnalytics (6.1.0):
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.3.0)
+  - FirebaseCore (6.2.0):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnostics (1.0.1):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseInstanceID (4.2.3):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.2):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (~> 3.1)
+  - FirebaseRemoteConfig (4.2.1):
+    - FirebaseABTesting (~> 3.0)
+    - FirebaseCore (~> 6.1)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleUtilities/Environment (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - Protobuf (~> 3.5)
+  - GoogleAppMeasurement (6.1.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleDataTransport (1.1.1)
+  - GoogleDataTransportCCTSupport (1.0.1):
+    - GoogleDataTransport (~> 1.1)
+    - nanopb
+  - GoogleMaps (3.3.0):
+    - GoogleMaps/Maps (= 3.3.0)
+  - GoogleMaps/Base (3.3.0)
+  - GoogleMaps/Maps (3.3.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.3.0):
+    - GoogleMaps/Base (= 3.3.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.2.5):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.5)
+  - GoogleUtilities/Logger (6.2.5):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.2.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.2.5):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.5)"
+  - GoogleUtilities/Reachability (6.2.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.2.5):
+    - GoogleUtilities/Logger
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.5)
+  - JGProgressHUD (2.1)
+  - JWTDecode (2.3.0)
+  - libwebp (1.0.3):
+    - libwebp/demux (= 1.0.3)
+    - libwebp/mux (= 1.0.3)
+    - libwebp/webp (= 1.0.3)
+  - libwebp/demux (1.0.3):
+    - libwebp/webp
+  - libwebp/mux (1.0.3):
+    - libwebp/demux
+  - libwebp/webp (1.0.3)
+  - lottie-ios (3.1.2)
+  - MaterialShowcase (0.6.5)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ObjectMapper (3.5.2)
+  - Protobuf (3.9.0)
+  - RAMAnimatedTabBarController (5.0.1)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SDWebImage/WebP (4.4.7):
+    - libwebp (< 2.0, >= 0.5)
+    - SDWebImage/Core
+  - Segmentio (4.1)
+  - SideMenu (6.2.2)
+  - Socket.IO-Client-Swift (15.1.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.0)
+  - SwiftyJSON (5.0.0)
+  - TTSegmentedControl (0.4.10)
+  - UICheckbox.Swift (1.0.0)
+  - UIScrollView-InfiniteScroll (1.1.0)
+  - UPCarouselFlowLayout (1.1.2)
+  - VisualEffectView (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Alamofire (= 5.0.0-rc.2)
+  - AlamofireImage (~> 4.0.0-beta.5)
+  - AlamofireObjectMapper (~> 6.2.0)
+  - Berry
+  - BetterSegmentedControl (~> 1.0)
+  - BlueSocket
+  - BmoViewPager (~> 5.0.0)
+  - CDAlertView
+  - Cosmos (~> 17.0)
+  - DropDown
+  - Firebase/Core
+  - Firebase/Messaging
+  - Firebase/RemoteConfig
+  - GoogleMaps
+  - GooglePlaces
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - JWTDecode
+  - lottie-ios
+  - MaterialShowcase
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - RAMAnimatedTabBarController
+  - SDWebImage
+  - SDWebImage/WebP
+  - Segmentio
+  - SideMenu
+  - Socket.IO-Client-Swift
+  - SwiftyJSON
+  - TTSegmentedControl (~> 0.4.9)
+  - UICheckbox.Swift
+  - UIScrollView-InfiniteScroll
+  - UPCarouselFlowLayout
+  - VisualEffectView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Berry
+    - BetterSegmentedControl
+    - BlueSocket
+    - CDAlertView
+    - Cosmos
+    - DropDown
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseRemoteConfig
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - iOSDropDown
+    - JWTDecode
+    - libwebp
+    - lottie-ios
+    - MaterialShowcase
+    - nanopb
+    - NVActivityIndicatorView
+    - Protobuf
+    - RAMAnimatedTabBarController
+    - SDWebImage
+    - Segmentio
+    - SideMenu
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+    - UICheckbox.Swift
+    - UPCarouselFlowLayout
+    - VisualEffectView
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - BmoViewPager
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - ObjectMapper
+    - TTSegmentedControl
+    - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireImage: f6dfe201f6d59cc6a045b5cb228b58962b8ef31d
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  Berry: b792e534479051129ea374326bdabea6011f68a9
+  BetterSegmentedControl: b27bddbdff29b6cae988678d6cd106858986cd03
+  BlueSocket: ff75aa92edb147aebf43ce7b20bf7a3693f8dcca
+  BmoViewPager: 4bf4004de0a9ff51821cdadbb070ab707df3ac64
+  CDAlertView: ee6a87c90c4283c8d316d55633db1a6981f1cc51
+  Cosmos: 309e489f21ffc91a1eeecfebef7f817cd2fcfba6
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Firebase: a2b5951f30ff38fd3b3bdae9c7d340f940fd3c51
+  FirebaseABTesting: a32c488eb75089a61eb3d86db061dfb909d765db
+  FirebaseAnalytics: 48414ae5cbf6976d8a2f7177e0466540e5ab33ce
+  FirebaseAnalyticsInterop: 0f250d71e8741352407a8db351e6de78c5c56d35
+  FirebaseCore: 8c9e08bce0c72a3affd83927d8184cf244918bc8
+  FirebaseCoreDiagnostics: 4c04ae09d0ab027c30179828c6bb47764df1bd13
+  FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseInstanceID: 8b42755db950682e7de0d167bc6fb26a57b244af
+  FirebaseMessaging: ddd74d13644ef24cc4e2d95cabd1cf408e99b7b0
+  FirebaseRemoteConfig: ed74d16d7e5b19e77a4c3e3eee4fe363039b0834
+  GoogleAppMeasurement: 47285fa897e5a125df56b9ef8750a1d81e4598a8
+  GoogleDataTransport: ffbadce4ab93c88fb9dd8e6366c47bfcb4a32193
+  GoogleDataTransportCCTSupport: 3451e7d8ba19093e533362a6d78d6d9014c6a037
+  GoogleMaps: cfee83da305b9aaeccf92c24ac79df11c3003492
+  GooglePlaces: 1e2a87bd9efee9623ee65d44ecc35ebfecd7b13c
+  GoogleUtilities: e7dc37039b19df7fe543479d3e4a02ac8d11bb69
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  JWTDecode: fb77675c8049c1a7e9433c7cf448c3ce33ee4ac7
+  libwebp: 057912d6d0abfb6357d8bb05c0ea470301f5d61e
+  lottie-ios: 49cd85b1f24f61a7708ad7ec76a523ab2d0e3100
+  MaterialShowcase: 031041c8409ab8473740a13e8c37297f78316e96
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
+  RAMAnimatedTabBarController: ec36fba2fa4679fd36db55098e3477fe9bd79f52
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
+  SideMenu: ba47df99f8efc13848b5b67c11a88a770280ab03
+  Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TTSegmentedControl: d8005c0cdca2549ade0aee8e09240723e2478a6a
+  UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
+  VisualEffectView: 9e9883f07d8a929b98c9c08a068f726279d92754
+
+PODFILE CHECKSUM: 04bd875285fe18afe2fa6a9fdb52f28e88656bf1
+
+COCOAPODS: 1.9.1
