@@ -1,6 +1,6 @@
-# 🏠 Real Estate App - Buy, Sell, and Rent Properties
+# 🏠 Melkita App - Buy, Sell, and Rent Properties
 
-**Real Estate App** is a comprehensive mobile application designed for buying, selling, and renting real estate properties. It provides a seamless user experience for property listings, communication between buyers and sellers, and managing rental agreements. Developed natively for **iOS** and **Android**, with a backend powered by **Node.js**, this app is your one-stop solution for all real estate needs. 🏡📱
+**Melkita App** is a comprehensive mobile application designed for buying, selling, and renting real estate properties. It provides a seamless user experience for property listings, communication between buyers and sellers, and managing rental agreements. Developed natively for **iOS** and **Android**, with a backend powered by **Node.js**, this app is your one-stop solution for all real estate needs. 🏡📱
 
 ---
 
